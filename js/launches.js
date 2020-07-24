@@ -54,7 +54,7 @@ function renderLaunches(json, launchCount) {
 
         newRow.appendChild(newElement);
         launchTableBody.appendChild(newRow);
-        launchTitle.innerHTML = 'Failed to Load Launch Data'
+        launchTitle.innerHTML = 'Failed to Load Launch Data';
     });
 }
 
