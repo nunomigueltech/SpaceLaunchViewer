@@ -5,6 +5,9 @@ document.getElementById('refreshLaunches').onclick = function(event) {
 
 function loadLaunches() {
     const launchCount = document.getElementById('launchCount').value;
+    const validRegex = /[1-9][0-9]*/;
+    if (!validRegex.test(launchCount)) return;
+
     const apiURL = 'https://launchlibrary.net/1.3/launch/next/' + launchCount;
 
     fetch(apiURL).then((response) => {
