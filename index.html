@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Space Launch Viewer</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Space Launch Viewer</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="agencies.html" class="nav-link">Space Agencies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="launches.html" class="nav-link">Upcoming Launches</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="introHeader">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="dark-overlay"></div>
+            <div class="container inner">
+                <div class="row">
+                    <div class="col text-center text-white">
+                        <h1 class="display-4">To The Moon and Beyond</h1>
+                        <p class="lead">Over 50 years of space history, now viewable from the comforts of your home.</p>
+                        <hr>
+                        <p>Browse information regarding any Space Agency or take a look at upcoming launches!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <a href="agencies.html" class="btn btn-light mr-2">Browse Space Agencies</a>
+                        <a href="launches.html" class="btn btn-light">View Upcoming Launches</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="history">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center mb-3">
+                    <h3>Brief History of Space</h3>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex flex-wrap justify-content-center">
+                    <div class="card mx-3 my-3" style="width: 25rem;">
+                        <div class="card-body">
+                            <h4 class="card-title">1957 - Sputnik 1</h4>
+                            <h6 class="card-subtitle text-muted">First Artificial Satellite</h6>
+                            <hr>
+                            <p class="card-text">Soviets launch the first artificial satellite into orbit, starting the Space Race.</p>
+                        </div>
+                    </div>
+                    <div class="card mx-3 my-3" style="width: 25rem;">
+                        <div class="card-body">
+                            <h4 class="card-title">1961 - Yuri Gagarin</h4>
+                            <h6 class="card-subtitle text-muted">First human spaceflight</h6>
+                            <hr>
+                            <p class="card-text">Soviets launch the first man into space.</p>
+                        </div>
+                    </div>
+                    <div class="card mx-3 my-3" style="width: 25rem;">
+                        <div class="card-body">
+                            <h4 class="card-title">1961 - Freedom 7</h4>
+                            <h6 class="card-subtitle text-muted">First piloted spaceflight</h6>
+                            <hr>
+                            <p class="card-text">First human space mission that landed with the pilot (Alan Shepard) still in the spacecraft.</p>
+                        </div>
+                    </div>
+                    <div class="card mx-3 my-3" style="width: 25rem;">
+                        <div class="card-body">
+                            <h4 class="card-title">1968 - Apollo 8</h4>
+                            <h6 class="card-subtitle text-muted">First human-crewed orbit of the Moon</h6>
+                            <hr>
+                            <p class="card-text">The crew of Apollo 8 were the first humans to enter the gravitational influence of another celestial body.</p>
+                        </div>
+                    </div>
+                    <div class="card mx-3 my-3">
+                        <div class="card-body">
+                            <h4 class="card-title">1969 - Apollo 11</h4>
+                            <h6 class="card-subtitle text-muted">First humans on the Moon</h6>
+                            <hr>
+                            <p class="card-text">Neil Armstrong, Buzz Aldrin, and Michael Collins complete their successful mission to the Moon.</p>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe ckass="embed-responsive-item" src="https://www.youtube.com/embed/nOcDftgR5UQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
